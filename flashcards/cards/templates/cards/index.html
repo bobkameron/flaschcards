@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Flashcard App | Guess the Definitions of Words! 
+        </title>
+        {% load static %}
+
+        <link href="{% static 'cards/styles.css' %}" rel="stylesheet">
+        <script src="{% static 'cards/script.js' %}"></script>
+
+    </head>
+
+    <body>
+        <header>  
+            <h1>
+                FLASHCARDS 
+            </h1>
+        </header>
+        
+        <hr>
+
+        <main id = "main">
+            <div id = "card">
+                <div id = "card_front">
+                    <p>
+                        Word:
+                    </p>
+                    
+                    <hr>
+                    <p id = "card_word">
+                    </p>
+
+                    <hr>
+                    <p id = "show_definition">
+                        Show Definition 
+                    </p>
+                </div>
+
+                <div id = "card_back_side">
+                    <p>
+                        Definition:
+                    </p>
+
+                    <hr>
+                    <p id = "card_definition">
+                    </p>
+                    <hr>
+
+                    <p>
+                        <span id = "get_card_correct"> I got it </span> | 
+                        <span id = "get_card_wrong"> I did not get it </span>
+                    </p>
+
+                    
+                </div>
+
+
+            </div>
+
+
+            <div id = "no_card_message">
+                no card
+            </div>
+
+
+        </main>
+
+
+    </body>
+
+</html>

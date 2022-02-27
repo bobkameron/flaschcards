@@ -1,0 +1,28 @@
+
+
+
+
+
+body {
+    margin: auto;
+    text-align:center; 
+}
+
+#show_definition:hover, #get_card_correct:hover, #get_card_wrong:hover {
+
+    cursor:pointer; 
+    text-decoration-line: underline;
+    color: aqua; 
+}
+
+#card , #no_card_message {
+    border: 2px solid blueviolet;
+    border-radius: 5px; 
+
+    margin: 5px;
+}
+
+
+#main {
+    display: none; 
+}
